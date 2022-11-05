@@ -12,7 +12,7 @@ const Portfolio = () => {
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
 
-      <div className="container container__portfolio">
+      <div className="container portfolio__container">
           <article className="portfolio__item">
             <div className="portfolio__item-image">
               <img src={IMG1} alt="" />

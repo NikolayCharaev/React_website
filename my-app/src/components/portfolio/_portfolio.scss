@@ -1,5 +1,5 @@
 .portfolio {
-  .container__portfolio {
+  &__container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
@@ -36,17 +36,17 @@
 
 /* Media Quieres */
 @media screen and (max-width: 1200px) {
-    .portfolio {
-        .container__portfolio {
-          grid-template-columns: repeat(2, 1fr);
-          gap: 1.2rem;
-        }
-      }
+  .portfolio {
+    &__container {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.2rem;
+    }
+  }
 }
 
 @media screen and (max-width: 600px) {
   .portfolio {
-    .container__portfolio {
+    &__container {
       grid-template-columns: repeat(1, 1fr);
       gap: 1.2rem;
     }
